@@ -14,6 +14,24 @@
 | **Daily Sales** (`tableau_bord_vente_jour1.pbit`) | How do orders evolve day by day, and who are the customers? | Customers and orders tables linked by a relationship, trend line, bar and donut charts, slicer |
 | **Green Pulse — Energy** (`Tableau de bore_Green_Pulse.pbit`) | How does energy consumption and its cost vary by country over time? | KPI cards (total consumption, total cost, number of countries), map, trend, breakdown, slicer |
 
+## Screenshots
+
+### Green Pulse — Energy consumption
+
+<img src="powerbi_green_pulse.png" alt="Green Pulse energy dashboard in Power BI" width="800">
+
+- **5 countries**, **564,844 kWh** consumed for a total cost of **118,194**
+- **Gas (51%) and electricity (41%)** make up over 90% of consumption; solar and wind remain below 8% together
+- **Morocco** is the largest consumer, ahead of Germany and Kenya; consumption peaks in March and falls sharply in July
+
+### Daily Sales
+
+<img src="powerbi_ventes_jour.png" alt="Sales dashboard in Power BI" width="800">
+
+- **Laptops account for about half of sales (51%)**, followed by smartphones (24%) and tablets (18%)
+- **Dell XPS 15** is by far the best-selling product
+- Sales can be filtered by country (Germany, China, United States, India)
+
 ## Approach
 
 1. Imported the data with **Power Query**.
@@ -37,7 +55,8 @@ Quatre rapports interactifs réalisés dans **Power BI Desktop** :
 - **Distribution** : 5 pages (vue d'ensemble avec 6 indicateurs, comparaisons, treemap, évolution avec segment, carte)
 - **Ventes 2026** : indicateurs, carte, évolution mensuelle, répartition par catégorie
 - **Ventes journalières** : modèle clients / commandes relié, évolution et répartition des commandes
-- **Green Pulse** : consommation d'énergie et coût par pays, carte et évolution
+- **Green Pulse** : consommation d'énergie et coût par pays, carte et évolution. 5 pays, 564 844 kWh ; le gaz (51 %) et l'électricité (41 %) dominent ; le Maroc est le plus gros consommateur
+- Dans les ventes, les **ordinateurs portables** représentent environ la moitié du chiffre d'affaires, et le **Dell XPS 15** est le produit le plus vendu
 
 Compétences : Power Query, modélisation, mesures DAX, cartes, segments, conception de rapports.
 </details>
