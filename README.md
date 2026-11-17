@@ -28,6 +28,7 @@
 
 <img src="powerbi_ventes_jour.png" alt="Sales dashboard in Power BI" width="800">
 
+- **Total sales: €102.5K**, with a low point in February and peaks in April and October
 - **Laptops account for about half of sales (51%)**, followed by smartphones (24%) and tablets (18%)
 - **Dell XPS 15** is by far the best-selling product
 - Sales can be filtered by country (Germany, China, United States, India)
